@@ -6,7 +6,7 @@ const Callput = () => {
     const [response, setResponse] = useState([]);
     useEffect(() => {
     const socket = socketIOClient(ENDPOINT);
-        socket.on("callput", data => {
+        socket.on("rrbf", data => {
         setResponse((response) => [...response, data])
         });
     }, []);
