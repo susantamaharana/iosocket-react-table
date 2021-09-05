@@ -52,7 +52,7 @@ function convertDate(inputFormat) {
 const getApiAndEmit = (socket) => {
 
   // Emitting a new message. Will be consumed by the client
-  socket.emit('/', response);
+  socket.emit('rrbf', response);
 };
 
 
