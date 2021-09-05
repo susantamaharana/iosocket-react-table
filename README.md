@@ -1,13 +1,13 @@
 # streaming data node expressjs + reactjs
 
-#steps 
+# steps 
 
-#cd api
-#yarn install
-#yarn run dev
-#
+# cd api
+# yarn install
+# yarn run dev
 
-#cd ui 
-#yarn install 
-#yarn start
-#
+
+# cd ui 
+# yarn install 
+# yarn start
+
